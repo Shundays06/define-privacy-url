@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Politique de confidentialité — DEFINE</title>
+<meta name="description" content="Politique de confidentialité de l'application DEFINE — local-first, aucune donnée de santé ne quitte l'appareil." />
+<style>
+  :root { --bg:#070a08; --card:#0f1410; --text:#e8efe9; --muted:#9fb0a4; --green:#34d75a; --line:#1d271f; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:720px; margin:0 auto; padding:40px 22px 80px; }
+  .brand { color:var(--green); font-weight:800; letter-spacing:3px; font-size:15px; }
+  h1 { font-size:28px; margin:18px 0 4px; line-height:1.25; }
+  .date { color:var(--muted); font-size:14px; margin-bottom:28px; }
+  h2 { font-size:18px; margin:34px 0 8px; color:#fff; }
+  p, li { color:var(--text); font-size:15.5px; }
+  .muted { color:var(--muted); }
+  strong { color:#fff; }
+  a { color:var(--green); }
+  .lead { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px 18px; }
+  hr { border:none; border-top:1px solid var(--line); margin:34px 0; }
+  footer { color:var(--muted); font-size:13px; margin-top:40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">DEFINE</div>
+  <h1>Politique de confidentialité</h1>
+  <div class="date">Dernière mise à jour : 26 juin 2026</div>
+
+  <p class="lead">DEFINE est conçue selon le principe du <strong>local-first</strong> : tes données restent sur ton appareil.</p>
+
+  <h2>Données que nous collectons</h2>
+  <p>DEFINE <strong>ne collecte ni ne stocke tes données personnelles ou de santé sur des serveurs</strong>. La seule donnée transmise hors de l'appareil concerne la <strong>gestion de ton abonnement</strong> (identifiant anonyme + informations d'achat) — voir la section « Abonnement DEFINE+ » ci-dessous.</p>
+  <p>Tout ce que tu saisis dans l'application — profil (poids, taille), boissons et aliments loggés, facteurs du jour, historique de score, photos de progression, événements et réglages — est enregistré <strong>uniquement en local</strong> sur ton appareil. Ces informations ne quittent jamais ton téléphone.</p>
+
+  <h2>Services réseau utilisés (sans compte, sans identifiant)</h2>
+  <p>Deux fonctions optionnelles interrogent des services publics gratuits, sans compte ni identifiant publicitaire :</p>
+  <ul>
+    <li><strong>Recherche d'aliments</strong> : ta requête de recherche (le texte tapé) est envoyée à <strong>OpenFoodFacts</strong> pour trouver les produits. Aucun autre élément n'est transmis.</li>
+    <li><strong>Indice UV (optionnel, désactivé par défaut)</strong> : si tu actives « UV en direct », ta position <strong>arrondie à ~10 km</strong> est envoyée à <strong>Open-Meteo</strong> pour récupérer l'indice UV local. Ta position exacte n'est jamais transmise, ni stockée, ni associée à un identifiant.</li>
+  </ul>
+
+  <h2>Photos</h2>
+  <p>Les photos de progression que tu ajoutes sont stockées <strong>localement</strong> sur ton appareil et ne sont jamais envoyées vers un serveur. L'accès à ta photothèque sert uniquement à te permettre de choisir une image ; nous n'y accédons pas autrement.</p>
+
+  <h2>Caméra et scan visage</h2>
+  <p>La caméra est utilisée dans deux fonctionnalités, <strong>uniquement pendant que tu les utilises</strong> :</p>
+  <ul>
+    <li><strong>Scan de code-barres</strong> : la caméra lit le code-barres d'un produit. Aucune image n'est enregistrée ni transmise.</li>
+    <li><strong>Scan visage</strong> : pendant quelques secondes, l'application réalise une <strong>mesure optique sur l'appareil</strong> (luminance, contraste et relief de l'image) pour estimer un score de bien-être indicatif. Il ne s'agit <strong>pas</strong> d'une reconnaissance faciale, d'une identification biométrique ni d'une cartographie du visage.</li>
+  </ul>
+  <p><strong>Aucune donnée de visage n'est collectée.</strong> Les images du scan visage sont analysées en mémoire sur l'appareil puis <strong>immédiatement supprimées</strong> ; elles ne sont jamais enregistrées, jamais transmises et jamais partagées avec un tiers. Seul un <strong>score numérique</strong> (0 à 100) est conservé <strong>localement</strong> pour suivre ton évolution.</p>
+
+  <h2>Notifications</h2>
+  <p>Les rappels (hydratation, check-in du matin, dîner) sont des <strong>notifications locales</strong> planifiées sur ton appareil. Aucune notification distante (push) n'est utilisée, et aucune donnée n'est envoyée pour les déclencher.</p>
+
+  <h2>Abonnement DEFINE+</h2>
+  <p>L'abonnement <strong>DEFINE+</strong> est traité par <strong>Apple (App Store)</strong> : le paiement, l'essai gratuit et le renouvellement sont gérés par Apple selon ses propres conditions. Nous ne voyons jamais ton numéro de carte.</p>
+  <p>Pour gérer l'état de ton abonnement (actif, essai, expiré) et la fonction « Restaurer mes achats », nous utilisons <strong>RevenueCat</strong>, un service tiers de gestion d'abonnements. RevenueCat reçoit un <strong>identifiant anonyme</strong> généré pour l'application et les <strong>informations d'achat</strong> transmises par Apple (produit, dates, statut de l'abonnement). Ces données servent <strong>uniquement</strong> à débloquer et synchroniser ton accès DEFINE+. <strong>Aucune donnée de santé, aucun scan visage et aucun contenu de ton journal ne sont transmis.</strong> Politique de confidentialité de RevenueCat : <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
+
+  <h2>Suivi &amp; publicité</h2>
+  <p>DEFINE ne contient <strong>aucune publicité, aucun traceur publicitaire et aucun outil d'analyse comportementale</strong>. Les seuls échanges réseau sont ceux décrits dans cette politique. Nous ne suivons pas ton activité à des fins publicitaires.</p>
+
+  <h2>Suppression de tes données</h2>
+  <p>Tu peux effacer toutes tes données à tout moment depuis <strong>Réglages → Réinitialiser l'application</strong>. La désinstallation de l'application supprime également l'intégralité des données locales.</p>
+
+  <h2>Enfants</h2>
+  <p>DEFINE n'est pas destinée aux enfants de moins de 13 ans.</p>
+
+  <h2>Avertissement bien-être</h2>
+  <p>DEFINE est un outil de <strong>bien-être informatif</strong>, pas un dispositif médical ni un outil de diagnostic. Le score reflète un état temporaire et réversible (la rétention d'eau).</p>
+
+  <h2>Contact</h2>
+  <p>Pour toute question relative à cette politique : <a href="mailto:illanprogamer@gmail.com">illanprogamer@gmail.com</a></p>
+
+  <hr />
+  <footer>© 2026 DEFINE — Illan Mastey. Application iOS de bien-être (débloat &amp; lookmaxing).</footer>
+</div>
+</body>
+</html>
