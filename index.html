@@ -29,23 +29,24 @@
 <div class="wrap">
   <div class="brand">DEFINE</div>
   <h1>Politique de confidentialité</h1>
-  <div class="date">Dernière mise à jour : 6 août 2026</div>
+  <div class="date">Dernière mise à jour : 18 septembre 2026 — DEFINE 1.9.0</div>
+  <p><a href="#english">English summary</a> · <a href="support.html">Assistance / Support</a></p>
 
   <p class="lead">DEFINE est conçue selon le principe du <strong>local-first</strong> : tes données restent sur ton appareil.</p>
 
   <h2>Données que nous collectons</h2>
   <p>DEFINE <strong>ne collecte ni ne stocke tes données de santé, de nutrition ou tes photos sur ses serveurs</strong>. Les données transmises hors de l'appareil concernent la gestion de ton abonnement et des événements techniques limités liés à l'attribution publicitaire — voir les sections ci-dessous.</p>
-  <p>Tout ce que tu saisis dans l'application — profil (poids, taille), boissons et aliments loggés, facteurs du jour, historique de score, photos de progression, événements et réglages — est enregistré <strong>uniquement en local</strong> sur ton appareil. Ces informations ne quittent jamais ton téléphone.</p>
+  <p>Ton profil, ton journal, ton historique et tes photos de scan sont enregistrés <strong>localement</strong>. DEFINE ne propose pas de synchronisation ni de sauvegarde cloud intégrée. Une recherche en ligne ou une action de partage implique les échanges décrits ci-dessous.</p>
 
   <h2>Services réseau utilisés (sans compte, sans identifiant)</h2>
   <p>Deux fonctions optionnelles interrogent des services publics gratuits, sans compte ni identifiant publicitaire :</p>
   <ul>
-    <li><strong>Recherche d'aliments</strong> : ta requête de recherche (le texte tapé) est envoyée à <strong>OpenFoodFacts</strong> pour trouver les produits. Aucun autre élément n'est transmis.</li>
+    <li><strong>Recherche d'aliments et codes-barres</strong> : ta requête ou le code du produit est envoyé à <strong>Open Food Facts</strong>. Le contenu complet de ton journal n'est pas envoyé. Comme tout service Internet, le prestataire reçoit les informations de connexion nécessaires, notamment l'adresse IP.</li>
     <li><strong>Indice UV (optionnel, désactivé par défaut)</strong> : si tu actives « UV en direct », ta position <strong>arrondie à ~10 km</strong> est envoyée à <strong>Open-Meteo</strong> pour récupérer l'indice UV local. Ta position exacte n'est jamais transmise, ni stockée, ni associée à un identifiant.</li>
   </ul>
 
   <h2>Photos</h2>
-  <p>Les photos de progression que tu ajoutes sont stockées <strong>localement</strong> sur ton appareil et ne sont jamais envoyées vers un serveur. L'accès à ta photothèque sert uniquement à te permettre de choisir une image ; nous n'y accédons pas autrement.</p>
+  <p>Les photos issues de tes scans sont stockées <strong>localement</strong> pour consulter l'historique et comparer les captures. Elles ne sont pas envoyées à un service d'analyse. Si tu choisis de partager une carte, elle est transmise à l'application ou au destinataire que tu sélectionnes, selon ses propres règles de confidentialité.</p>
 
   <h2>Caméra et scan visage</h2>
   <p>La caméra est utilisée dans deux fonctionnalités, <strong>uniquement pendant que tu les utilises</strong> :</p>
@@ -53,7 +54,7 @@
     <li><strong>Scan de code-barres</strong> : la caméra lit le code-barres d'un produit. Aucune image n'est enregistrée ni transmise.</li>
     <li><strong>Scan visage</strong> : pendant quelques secondes, l'application réalise une <strong>mesure optique sur l'appareil</strong> et détecte des repères géométriques temporaires pour estimer un score de bien-être indicatif. Il ne s'agit <strong>pas</strong> d'une reconnaissance faciale ni d'une identification biométrique.</li>
   </ul>
-  <p><strong>Aucune donnée de visage n'est transmise.</strong> Les images du scan sont analysées sur l'appareil et peuvent rester dans le cache local de l'application pour afficher le résultat et préparer une carte de partage. Les repères détectés et le <strong>score numérique</strong> (0 à 100) sont conservés uniquement en local pour suivre ton évolution. Rien n'est envoyé à un serveur ni partagé sans ton action. Tu peux effacer ces éléments via <strong>Réglages → Réinitialiser l'application</strong> ou en désinstallant l'app.</p>
+  <p><strong>L'analyse faciale s'effectue sur ton appareil.</strong> Les photos de scans réussis sont conservées dans le stockage local de l'application avec l'historique et les indices visuels, pour afficher les résultats et comparer les captures. L'historique est limité aux 100 derniers scans. Il ne s'agit donc pas seulement d'un cache temporaire. Aucun scan ni repère facial n'est envoyé à TikTok, RevenueCat ou un service d'analyse. Tu peux effacer les éléments locaux via <strong>Réglages → Réinitialiser l'application</strong> ou en désinstallant l'app.</p>
 
   <h2>Notifications</h2>
   <p>Les rappels (hydratation, check-in du matin, dîner) sont des <strong>notifications locales</strong> planifiées sur ton appareil. Aucune notification distante (push) n'est utilisée, et aucune donnée n'est envoyée pour les déclencher.</p>
@@ -64,7 +65,7 @@
 
   <h2>Attribution publicitaire</h2>
   <p>DEFINE utilise le SDK TikTok Business pour mesurer l'efficacité de ses campagnes publicitaires. Il peut transmettre à TikTok des événements limités tels que l'ouverture de l'application, la réalisation du premier scan, le début d'un essai ou la confirmation d'un abonnement. <strong>Aucune photo, mesure faciale, donnée de santé, donnée nutritionnelle ni texte saisi n'est transmis.</strong></p>
-  <p>Sur iOS, DEFINE demande ton autorisation via App Tracking Transparency au premier lancement, avant d'initialiser le SDK TikTok. <strong>Uniquement si tu acceptes</strong>, TikTok reçoit ces événements, des informations techniques sur l'appareil et l'identifiant publicitaire (IDFA) afin d'attribuer l'installation à une campagne. Si tu refuses ou si le suivi est restreint, le SDK TikTok n'est pas initialisé et aucun de ces événements ne lui est envoyé. Tu peux modifier ce choix dans les réglages iOS. Politique de confidentialité TikTok for Business : <a href="https://www.tiktok.com/legal/page/global/tiktok-for-business-privacy-policy/fr">tiktok.com/legal</a>.</p>
+  <p>Sur iOS, DEFINE demande ton autorisation via App Tracking Transparency après le parcours de démarrage, avant d'initialiser le SDK TikTok. <strong>Uniquement si tu acceptes et si le service est configuré</strong>, TikTok reçoit des identifiants d'appareil, des informations techniques, des événements d'utilisation et d'achat, et l'identifiant publicitaire (IDFA) afin de mesurer les campagnes. Ces données peuvent être liées à l'appareil et utilisées pour le suivi publicitaire ; elles ne sont pas présentées comme anonymes. Si tu refuses ou si le suivi est restreint, le SDK TikTok n'est pas initialisé. Tu peux modifier ce choix dans les réglages iOS. Politique de confidentialité TikTok for Business : <a href="https://www.tiktok.com/legal/page/global/tiktok-for-business-privacy-policy/fr">tiktok.com/legal</a>.</p>
 
   <h2>Suppression de tes données</h2>
   <p>Tu peux effacer toutes tes données personnelles locales à tout moment depuis <strong>Réglages → Réinitialiser l'application</strong>. Cela supprime notamment ton profil, tes journaux, ton historique et tes photos ; la désinstallation les supprime également. Un marqueur technique indiquant qu'un scan gratuit a déjà été utilisé peut rester dans le trousseau sécurisé iOS afin d'empêcher la recréation abusive du crédit après une réinitialisation ou une réinstallation. Ce marqueur ne contient aucune photo, mesure, donnée de santé, donnée publicitaire ni identifiant de compte.</p>
@@ -73,10 +74,22 @@
   <p>DEFINE n'est pas destinée aux enfants de moins de 13 ans.</p>
 
   <h2>Avertissement bien-être</h2>
-  <p>DEFINE est un outil de <strong>bien-être informatif</strong>, pas un dispositif médical ni un outil de diagnostic. Le score reflète un état temporaire et réversible (la rétention d'eau).</p>
+  <p>DEFINE est un outil de <strong>suivi de bien-être</strong>, pas un dispositif médical, un diagnostic ou une note de beauté. Les indices dépendent notamment de la lumière, de l'angle et de l'expression ; ils ne mesurent pas médicalement la rétention d'eau. Les résultats ne sont pas garantis.</p>
 
   <h2>Contact</h2>
   <p>Pour toute question relative à cette politique : <a href="mailto:illanprogamer@gmail.com">illanprogamer@gmail.com</a></p>
+  <p>La réinitialisation supprime les données locales, pas les transactions conservées par Apple ni les données déjà reçues par les prestataires. Pour toute demande relative à ces données, contacte-nous ou utilise les démarches du prestataire concerné. Les durées et traitements des prestataires sont décrits dans leurs politiques.</p>
+
+  <section lang="en" id="english">
+    <h2>Privacy — English summary</h2>
+    <p>Updated September 18, 2026. DEFINE processes face captures on your device and stores successful scan photos and visual indices locally for history and comparison, up to the latest 100 scans. Photos, facial measurements and diary contents are not uploaded to an analysis service, TikTok or RevenueCat. Sharing happens only when you choose a destination. There is no built-in cloud sync or backup.</p>
+    <p>Food searches and product barcodes are sent to Open Food Facts. Optional live UV sends approximate coordinates (rounded to about 10 km) to Open-Meteo, not your precise coordinates. Internet services receive connection information such as your IP address. Notifications are local.</p>
+    <p>Apple processes payments. RevenueCat receives an app-generated identifier and purchase information to manage subscription access and restoration, not your card details or diary. See <a href="https://www.revenuecat.com/privacy">RevenueCat privacy</a>.</p>
+    <p>When configured, the TikTok Business SDK initializes only after you grant Apple's tracking permission, requested after onboarding. It may receive device identifiers including IDFA, technical information, usage events and purchase events for developer advertising and attribution. These may be linked to your device and used for tracking. Declining or restricted permission prevents SDK initialization without limiting app features. See <a href="https://www.tiktok.com/legal/page/global/tiktok-for-business-privacy-policy/en">TikTok for Business privacy</a>.</p>
+    <p>Resetting in Settings or uninstalling removes local app data. A technical free-scan-used marker can remain in the iOS Keychain; it contains no photo, facial measurement, health data or advertising identifier. Resetting does not delete Apple's transactions or previously transmitted provider data; contact us or the provider for requests under their policies.</p>
+    <p>DEFINE is not intended for children under 13. It is a wellbeing tracker, not a medical diagnosis or beauty rating. Lighting, angle and expression affect visual indices, which do not medically measure water retention.</p>
+    <p>Privacy and support: <a href="mailto:illanprogamer@gmail.com">illanprogamer@gmail.com</a>.</p>
+  </section>
 
   <hr />
   <footer>© 2026 DEFINE — Illan Mastey. Application iOS de bien-être (débloat &amp; lookmaxing).</footer>
